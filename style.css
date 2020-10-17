@@ -49,9 +49,6 @@ a:hover {
   margin: 0;
   background-color: #085562;
   text-align: center;
-  position: relative;
-  top: 0;
-  bottom: 100%;
 }
 
 #about li {
@@ -71,11 +68,5 @@ a:hover {
 #heading-name {
   font-size: 60pt;
   color: #38d88e;
-  text-alight: center;
-}
-
-#heading-name::before {
-  font-size: 65pt;
-  color: #00be91;
 }
 /*# sourceMappingURL=style.css.map */
