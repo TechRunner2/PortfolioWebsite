@@ -39,8 +39,17 @@ a {
 }
 
 a:hover {
-  color: #38d88e;
+  color: #9af089;
   text-decoration: underline;
+}
+
+#heading {
+  position: relative;
+}
+
+#heading-name {
+  font-size: 80pt;
+  color: #9af089;
 }
 
 #content {
@@ -64,8 +73,7 @@ a:hover {
   right: 0;
 }
 
-#heading-name {
-  font-size: 60pt;
-  color: #38d88e;
+.section-title {
+  font-size: 30pt;
 }
 /*# sourceMappingURL=style.css.map */
