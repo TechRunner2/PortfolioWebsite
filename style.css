@@ -34,7 +34,6 @@ html * {
 }
 
 a {
-  color: #00be91;
   font-size: 20pt;
   text-decoration: none;
 }
@@ -45,8 +44,9 @@ a:hover {
 }
 
 #content {
-  padding: 0;
-  margin: 0;
+  position: relative;
+  top: 2px;
+  height: 95vh;
   background-color: #085562;
   text-align: center;
 }
