@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: #6b95ad;
+}
+
+html {
+  min-height: 100%;
+  background-color: #2e263d;
+  font-family: url("./Assets/Fonts/PressStart2P-Regular.ttf");
+}
+
+#navbar {
+  display: inline;
+  padding: 1em;
+  margin: 0;
+  background-color: #261b23;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#navbar ul {
+  text-align: left;
+  list-style: none;
+}
+
+#navbar ul li {
+  display: inline;
+  padding-left: 0.3vw;
+  padding-right: 0.3vw;
+}
+
+a {
+  font-size: 20pt;
+  text-decoration: none;
+}
+
+a::hover {
+  color: 0;
+}
+
+#content {
+  background-color: #1a1316;
+  position: absolute;
+  bottom: 1em;
+  right: 0;
+  left: 0;
+  top: 4em;
+}
+
+#contact ul li {
+  display: inline;
+  list-style: none;
+}
+
+#footer {
+  background-color: #000000;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+h1 {
+  font-size: 60pt;
+}
+/*# sourceMappingURL=style.css.map */

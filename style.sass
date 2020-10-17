@@ -1,0 +1,73 @@
+$Navbar-color: #261b23 
+$Font-color: #6b95ad 
+$Font-highlight-color: 0
+$Content-color: #1a1316 
+$Navbar-padding: .3vw
+$Footer-color: #000000
+
+@font-face {
+    font-family: "Assets/Fonts/PressStart2P-Regular.ttf";
+    src: url("Assets/Fonts/PressStart2P-Regular.ttf");
+}
+
+*
+    padding: 0
+    margin: 0
+    text-align: center
+    color: $Font-color
+
+html
+    min-height: 100%
+    background-color:  #2e263d  
+
+
+#navbar
+    display: inline
+    padding: 1em
+    margin: 0
+    background-color: $Navbar-color
+    position: absolute
+    top: 0
+    left: 0
+    right: 0 
+    ul
+        text-align: left
+        list-style: none
+        li
+            display: inline
+            padding-left: $Navbar-padding
+            padding-right: $Navbar-padding
+a
+    font-size: 20pt
+    text-decoration: none
+a::hover
+    color: 0
+
+#content
+    background-color: $Content-color
+    position: absolute
+    bottom: 1em
+    right: 0
+    left: 0
+    top: 4em
+
+#about
+
+#contact
+    ul
+        li
+            display: inline
+            list-style: none
+
+#footer
+    background-color: $Footer-color
+    position: absolute
+    bottom: 0
+    left: 0
+    right: 0
+
+h1
+    font-size: 60pt
+
+h2
+    
