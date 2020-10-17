@@ -2,16 +2,16 @@
   padding: 0;
   margin: 0;
   text-align: center;
-  color: #6b95ad;
 }
 
 html {
+  color: #37567a;
   min-height: 100%;
   background-color: #2e263d;
-  font-family: url("./Assets/Fonts/PressStart2P-Regular.ttf");
 }
 
 #navbar {
+  color: #37567a;
   display: inline;
   padding: 1em;
   margin: 0;
@@ -34,15 +34,18 @@ html {
 }
 
 a {
+  color: #37567a;
   font-size: 20pt;
   text-decoration: none;
 }
 
-a::hover {
-  color: 0;
+a:hover {
+  color: #6b95ad;
+  text-decoration: underline;
 }
 
 #content {
+  color: #37567a;
   background-color: #1a1316;
   position: absolute;
   bottom: 1em;
@@ -66,5 +69,6 @@ a::hover {
 
 h1 {
   font-size: 60pt;
+  color: #6b95ad;
 }
 /*# sourceMappingURL=style.css.map */
