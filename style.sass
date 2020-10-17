@@ -1,75 +1,91 @@
-$Navbar-color: #261b23 
-$Font-color:  #37567a  
-$Header-color:  #6b95ad 
-$Font-highlight-color: #6b95ad 
-$Content-color: #1a1316 
+//Color Pallete
+$Font-color: #00be91 
+$Font-highlight-color: #38d88e 
+$Navbar-color: #001d2a 
+$Content-color: #085562 
+$Footer-color: #001d2a 
+
+//Navigation Bar Variables
 $Navbar-padding: .3vw
-$Footer-color: #000000
+$Navbar-top: 0
+$Navbar-bottom: 0
+$Navbar-left: 0
+$Navbar-right: 0
+
+//Content Variables
+$Content-top: 1em
+$Content-bottom: 0
+$Content-left: 0
+$Content-right: 0
+
+//Footer Variables
+$Footer-bottom: 0
+$Footer-left: 0
+$Footer-right: 0
 
 
-*
+html *
     padding: 0
     margin: 0
-    text-align: center
-
-html
     color: $Font-color
-    min-height: 100%
-    background-color:  #2e263d  
-
 
 #navbar
-    color: $Font-color
-    display: inline
-    padding: 1em
-    margin: 0
+    position: relative
     background-color: $Navbar-color
-    position: absolute
-    top: 0
-    left: 0
-    right: 0 
-    ul
+    padding: .5vh
+    .nav-links
         text-align: left
         list-style: none
         li
             display: inline
-            padding-left: $Navbar-padding
-            padding-right: $Navbar-padding
+            padding: 0 $Navbar-padding
+    .social-links
+        text-align: right
+        position: absolute
+        top: .5vh
+        right: .5vh
+    .social-link
+        padding: 0 $Navbar-padding
+        display: inline
+        text-decoration: none
 a
     color: $Font-color
     font-size: 20pt
     text-decoration: none
+
 a:hover
     color: $Font-highlight-color
     text-decoration: underline
 
-#content
-    color: $Font-color
+#content 
+    padding: 0
+    margin: 0
     background-color: $Content-color
-    position: absolute
-    bottom: 1em
-    right: 0
-    left: 0
-    top: 4em
+    text-align: center
+    position: relative
+    top: 0
+    bottom: 100%
 
 #about
+    li
+        list-style: none
 
-#contact
-    ul
-        li
-            display: inline
-            list-style: none
 
-#footer
+
+#footer *
+    padding: 0
+    margin: 0
     background-color: $Footer-color
-    position: absolute
-    bottom: 0
-    left: 0
-    right: 0
+    position: fixed
+    bottom: $Footer-bottom
+    left: $Footer-left
+    right: $Footer-right
 
-h1
+#heading-name
     font-size: 60pt
-    color: $Header-color
+    color: $Font-highlight-color
+    text-alight: center
 
-h2
-    
+#heading-name::before
+    font-size: 65pt
+    color: $Font-color
